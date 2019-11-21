@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ada Lovelace</title>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Nunito:400,400i,600,700&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <ul class="nav">
+        <li class="nav-item">HOME</li>
+        <li class="nav-item">ARTICLES</li>
+        <li class="nav-item">ABOUT</li>
+        <li class="nav-item">HELP</li>
+      </ul>
+  </div>
+  <div class="container">
+    <div class="content">
+      <img src="imgs/programming.jpg" alt="Programming">
+      <div class="column">
+        <div class="section">
+          <h1>📚 How I learn any front-end framework</h1>
+          
+          <div class="index-wrapper">
+            <p class="index-title">Content</p>
+            <ul class="index">
+              <li class="index-item">
+                <a href="#building-projects">Building projects</a>
+              </li>
+              <li class="index-item">
+                <a href="#find-and-display">Find & Display</a>
+              </li>
+              <li class="index-item">
+                <a href="#auth-app">Auth App</a>
+              </li>
+              <li class="index-item">
+                <a href="#crud-app">CRUD App</a>
+              </li>
+            </ul>
+          </div>
+
+          <p>You decided to learn x framework, You open youtube or any search engine you prefer to search for any tutorials related to this “x” framework and suddenly after 30 min you scream “Eureka”, I think this framework is similar to my previous framework and you are right you don’t have to learn it from scratch. In this post I will show to you my experience to learn frontend frameworks and how those frameworks are closed to each other.</p>
+          
+          <p>Every time you decided to learn a front end framework, you must hear those terms over and over ( components, routing and managing state ).
+          Let’s break it down.</p>
+          
+          <h3>⚙️ Components</h3>
+          
+          <ul>
+            <li>The heart core for any framework building components makes it reusable.</li>
+            <li>Most modern frameworks using <b>JSX</b> or <b>HTML</b> template engine</li>
+          </ul>
+          
+          <h3>🚦 Managing state</h3>
+          
+          <ul>
+            <li>All frameworks are built with a way for components to internally manage their state without any need for an external library or tool.</li>
+            <li>Many Frameworks are built with a way for components to share same state for example (<b>Angular</b> has a <a href="">Service</a>, <b>React</b> now has <a href="">Context API</a>).</li>
+            <li>Sometimes frameworks solutions are not enough especially when your state is huge so you can consider using a library like <a href="">redux.</a></li>
+          </ul>
+          
+          <p>After finishing learning basics let’s get our hands dirty and <strong>start building projects.</strong></p>
+        </div>
+        
+        <hr />
+        <div id="building-projects" class="section">
+          <h2>🔨 Building projects</h2>
+          
+          <p>In order to understand aspects of something you need to know it well and this knowledge does not come from reading books or watching visual lessons only, <mark>the real test comes with a <span>real problem in real life</span></mark>, during this article I bring you some ideas for projects covering many aspects of any frontend framework you choose.</p>
+          
+          <h3>📄 Notes:</h3>
+          
+          <p>The projects listed in this subject are gradual in their difficulty and each project adds to its predecessor. The order of projects from the youngest to the most comprehensive.</p>
+        </div>
+        
+        <hr />
+        <div id="find-and-display" class="section">
+          <h2>🔎 1. Find & Display ( clone )</h2>
+          
+          <p>The first application which is commonly used is the clone of any known site using its public <b>API</b>, try to build a simple search bar with drop-down list holds results coming from endpoint <b>API</b>, check returning data before displaying it like if there is an image or not to display.</p>
+          
+          <h3>Endpoint API Example:</h3>
+          
+          <ul>
+            <li><a href="">Github API</a></li>
+            <li><a href="">OMDb API</a></li>
+            <li><a href="">Spotify Web API</a></li>
+            <li><a href="">wunderground API</a></li>
+            <li><a href="">reddit API</a></li>
+          </ul>
+          
+          <h3>👉 What you will learn:</h3>
+          
+          <ol>
+            <li>Using <b>HTTP</b> client to make a request to endpoint <b>API</b>.</li>
+            <li>Using keyboard event listener, for example, once a user hit enter call endpoint <b>API</b> to fetch result data.</li>
+            <li>Learn how to display single data or group of data.</li>
+            <li>Styling your display with Interpolation data.</li>
+            <li>Structural your display.</li>
+            <li>Master-Details: list results add a link for each item in result to the item details page.</li>
+            <li>Learn how to pass data from master page to a details page.</li>
+          </ol>
+        </div>
+        
+        <hr>
+  
+        <div id="auth-app" class="section">
+          <h2>🔒 2. Auth App</h2>
+          
+          <p>Some of this endpoint API I mention in the previous section require some authentication so in this section try to add or build another app with login/register page and if the user is login redirect him or her to the user homepage and prevent guest users from pages that require the user to be logged in.</p>
+          
+          <h3>👉 What you will learn:</h3>
+          
+          <ul>
+            <li>Route guard: some pages require <em>authenticated</em> user only.</li>
+            <li>How to send and save <b>JWT</b> (JSON web token) to make requests that require an authenticated use.</li>
+          </ul>
+        </div>
+  
+        <hr />
+        
+        <div id="crud-app" class="section">    
+          <h2>🗄️ 3. CRUD App</h2>
+          
+          <p>create, read, update and delete app is the most popular front-end app in this section you can build this app offline using local storage or using online service like Firebase or even integrated it with a back-end framework.</p>
+          
+          <h3>👉 What you will learn:</h3>
+          
+          <ul>
+            <li>Validate user input in form and display error if the user inserts wrong data.</li>
+            <li>How to make put, delete, post and get <b>HTTP</b> request.</li>
+            <li>Integrate your app with any back-end framework.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
