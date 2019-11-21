@@ -1,0 +1,166 @@
+body {
+  background-color: #FBFBFB;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 27px;
+  color: #DD4C4F;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Lora', serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #222222;
+}
+
+b {
+  color: #DD4C4F;
+}
+
+h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #222222;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #555555;
+}
+
+a {
+  color: #557DE8;
+  text-decoration: none;
+}
+
+mark {
+  background-color: aquamarine;
+}
+
+hr {
+  margin: 100px auto 60px;
+  width: 350px;  
+}
+
+.container {
+  display: flex;
+}
+
+.aside {
+  width: 300px;
+  border-right: 1px solid lightgray;
+}
+
+.content {
+  width: 100%;
+  padding-bottom: 120px;
+}
+
+.column {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* .nav {
+  list-style: none;
+}
+
+.nav-item {
+  margin: 15px 10px;
+  font-weight: bold;
+  display: inline-block;
+} */
+
+.index-wrapper {
+  width: 210px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid gray;
+}
+
+.index-title {
+  font-size: 21px;
+  margin: 5px 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.index-item {
+  font-size: 16px;
+}
+
+img {
+  width: 1200px;
+  height: 500px;
+  margin: 50px auto 0;
+  display: block;
+}
+
+ul {
+  margin: 0;
+}
+
+.header {
+  border-bottom: 1px solid lightgray;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 25px 10px;
+  font-size: 18px;
+  font-family: 'Nunito', sans-serif;
+  color: #555;
+  cursor: pointer;
+}
+
+.footer {
+  border-top: 1px solid lightgray;
+  padding: 40px 0;
+  background-color: #555;
+  color: #FFF;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.footer-links-title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #FFF;
+  margin: 0 0 10px;
+}
+
+.footer-links-container {
+  display: inline-block;
+  margin: 0 30px;
+}
